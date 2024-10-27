@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor_general{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30%;
+}
+
+form{
+    min-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor_titulo{
+    min-width: 100%;
+    text-align: center;
+    color: rgb(47, 180, 224);
+    font-size: .7rem;
+}
+
+.contenedor_campo_formulario{
+    min-width: 100%;
+    padding: 3% 7%;
+
+    label{
+        display: block;
+        margin: 3% 0;
+        font-size: .8rem;
+        font-weight: bolder;
+    }
+
+    input{
+        min-width: 100%;
+        padding: 2% 4%;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 5px gray;
+    }
+}
+
+button{
+    max-width: 100%;
+    background-color: rgb(47, 180, 224);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 2% 4%;
+    margin: 2% 7%;
+}
+
